@@ -11,3 +11,6 @@ down:
 
 bash:
 	docker-compose exec -u www-data php-apache /bin/bash
+
+bash_db:
+	docker-compose exec -u postgres database /bin/bash
